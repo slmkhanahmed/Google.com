@@ -1,0 +1,105 @@
+html {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.as {
+  padding: 6px;
+  background: rgb(50, 50, 58);
+}
+
+.v {
+  padding-left: 40%;
+}
+
+.q {
+  padding-left: 80%;
+  position: relative;
+  top: 30px;
+left: 30px;
+z-index:  1;
+
+}
+
+/* Adjust the size of buttons inside the nav */
+.q a button {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Style the content inside the buttons */
+.q a button img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0px;
+}
+
+.q a button p {
+  font-size: 9px;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 10px 0;
+  text-align: start;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the footer links */
+.footer a {
+  color: #c7c8c9;
+  margin-left: 10px;
+}
+.footer a:nth-last-child(2),
+.footer a::first-line {
+  margin-left: auto;
+}
+
+.pak {
+    margin: 27%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+  background-color: #1a1a1a;
+  padding-right: 100%;
+}
+
+/* Clear default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+#aq {
+margin-left: 40%;
+}
+#ae {
+  margin-left: 30%;
+  padding-right: 20%;
+  list-style-image: none;
+}
+
+#aw{
+
+}
+#t{
+  margin-left: 40%;
+}
